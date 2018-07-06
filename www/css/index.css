@@ -1,6 +1,7 @@
 body{
   font-family: 'Raleway', sans-serif;
-  background-image: url("images/background.jpg");
+  font-size: 12px;
+  background-color: rgb(85, 121, 178);
 }
 
 #footer-text-color{
@@ -9,6 +10,84 @@ body{
   margin-bottom: 0%;
 }
 
+.container{
+  margin-bottom: 20%;
+}
 span{
   letter-spacing: 0.2em;
+}
+
+.form-container{
+  margin: 5%;
+  padding: 5%;
+  max-width: 90%;
+  background-color: rgb(237, 240, 244, .9);
+  border-radius: 6px;
+}
+
+
+
+.btn-primary{
+  text-align: center;
+}
+
+inpt.form-control{
+  position: relative;
+}
+
+.fa-envelope-square{
+  color:rgb(107, 111, 117);
+  position: absolute;
+  top:195.3%;
+  left:47px;
+}
+
+.fa-phone{
+  color:rgb(107, 111, 117);
+  position: absolute;
+  top:203.4%;
+  left:47px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin:2%;
+}
+
+i{
+  margin: 2%;
+}
+
+.button-down{
+  background-color: rgb(48, 153, 62);
+  border:0px;
+  border-radius: 15px;
+  position: absolute;
+  width: 70%;
+  height: 12%;
+  padding-top: 8px!important;
+  left:15%;
+  right:15%;
+  top: 94%;
+}
+
+.card-body{
+  display: inline-block;
+}
+
+.card-title{
+  font-weight: bold;
+  font-size: 16px;
+}
+.card-text{
+  font-size: 12px;
+}
+
+.fixed-icon{
+  padding-top: 25%;
+  padding-left: 15%;
+  padding-right: 10px;
 }

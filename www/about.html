@@ -3,12 +3,19 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <!-- google font -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <!-- font awsome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
         integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
         <title>Linking to Font awsome</title>
         <!-- using bootwatch -->
-        <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+        <!-- this link is temporary cannot use -->
+        <!-- <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css"> -->
+        <!-- using bootrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+        <!-- internal css -->
+        <link rel="stylesheet"   href="/css/index.css">
     </head>
     <body>
       <div>
@@ -22,10 +29,10 @@
 
           <div class="collapse navbar-collapse" id="navbarColor02">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"><i class="fas fa-home"></i>  Home</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html"><i class="fas fa-home"></i>  Home</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="about.html"><i class="fas fa-info"></i>  About</a>
               </li>
               <li class="nav-item">
@@ -38,13 +45,118 @@
 
           </div>
         </nav>
-      </div>
-        <h1 class="container text-center"> This the index page </h1>
+
+        <!-- first content -->
+        <div class="container">
+          <div class="jumbotron text-center" style="margin-top:3%; position: relative;">
+            <a href="index.html">
+              <img src="http://www.gpscenters.com/landing/images/logo.png"
+                   width="180px" height="60px">
+            </a>
+            <h4 style="font-weight: 1000; font-size:25px; margin-bottom:0px;">GPS</h4>
+            <small>The only Elite Mobile only Author</small>
+            <hr class="my-4">
+            <p>
+              With 10 years of experience and over 25.000 Happy Customers
+              we are the only authors on the Envato Market to server only mobile devices.
+              We built exclusively for your mobile device so your page runs fast, smooth,
+              and gives your visitors a gorgeous simple and intuitive user experience.
+            </p>
+            <div class="conatiner text-center">
+                <button class="btn btn-success shadow p-3 mb-5 button-down" type="button" name="button">More Info</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- second contents -->
+        <div class="container">
+          <div class="card">
+            <div class="row no-gutters">
+                <div class="col-auto">
+                    <i class="fas fa-address-book fa-6x fixed-icon" style="color:rgb(244, 203, 66);"></i>
+                </div>
+                <div class="col">
+                    <div class="card-block px-2" style="padding-left: 20px!important;">
+                        <h4 class="card-title">Elite Author</h4>
+                        <p class="card-text">
+                          We became elite because of you, and we always give
+                          our customers the best! We treat our customers
+                          like our friends.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="width:90%; margin-left:5%;">
+
+            <div class="row no-gutters">
+                <div class="col-auto">
+                    <i class="fas fa-life-ring fa-6x fixed-icon" style=" color:blue;"></i>
+                </div>
+                <div class="col">
+                    <div class="card-block px-2" style="padding-left: 20px!important;">
+                        <h4 class="card-title">24/7 Support</h4>
+                        <p class="card-text">
+                          A product is only as good as it's support.
+                          Our documentations are easy and our reply times are
+                          incredibly fast.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="width:90%; margin-left:5%;">
+
+            <div class="row no-gutters">
+                <div class="col-auto">
+                    <i class="fas fa-wrench fa-6x fixed-icon" style="color:red;"></i>
+                </div>
+                <div class="col">
+                    <div class="card-block px-2" style="padding-left: 20px!important;">
+                        <h4 class="card-title">Always updated</h4>
+                        <p class="card-text">
+                          We make our code easy, and always compatible
+                          with the latest technologies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="width:90%; margin-left:5%;">
+
+            <div class="row no-gutters">
+                <div class="col-auto">
+                    <i class="fas fa-check fa-6x fixed-icon" style="color:green;"></i>
+                </div>
+                <div class="col">
+                    <div class="card-block px-2" style="padding-left: 20px!important;">
+                        <h4 class="card-title">Ultra Compatible</h4>
+                        <p class="card-text">
+                          We make our code easy, and always compatible
+                          with the latest technologies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- footer -->
+        <footer class="bd-footer bg-dark fixed-bottom" style="margin-top:3%;">
+          <div class="container-fluid text-center">
+            <p id="footer-text-color" class="px-Bottom">GPS</p>
+            <p id="footer-text-color" style="margin-top:2%;">Copy right &copy;</p>
+          </div>
+        </footer>
 
         <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js">
+        </script>
         <!-- bootrap js and jquery -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     </body>
 </html>

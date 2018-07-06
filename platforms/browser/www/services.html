@@ -3,12 +3,19 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <!-- google font -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <!-- font awsome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
         integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
         <title>Linking to Font awsome</title>
         <!-- using bootwatch -->
-        <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+        <!-- this link is temporary cannot use -->
+        <!-- <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css"> -->
+        <!-- using bootrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+        <!-- internal css -->
+        <link rel="stylesheet"   href="/css/index.css">
     </head>
     <body>
       <div>
@@ -22,13 +29,13 @@
 
           <div class="collapse navbar-collapse" id="navbarColor02">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"><i class="fas fa-home"></i>  Home</span></a>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><i class="fas fa-home"></i>  Home</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html"><i class="fas fa-info"></i>  About</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="services.html"><i class="fas fa-bell"></i>  Services</a>
               </li>
               <li class="nav-item">
@@ -38,13 +45,96 @@
 
           </div>
         </nav>
-      </div>
-        <h1 class="container text-center"> This the index page </h1>
+
+        <div class="container text-center" style="margin-top:3%;">
+          <!-- first-card -->
+          <div class="col-md-4">
+            <div class="card border-success mb-3" style="max-width: 20rem;">
+              <div class="card-header">
+                <h2>PRINTING</h2>
+              </div>
+              <div class="card-body">
+                <span style="margin-bottom: 3%;"><i class="fas fa-cogs fa-2x"></i></span>
+                <br><br>
+                <h4 class="card-title">Make stunning print.</h4>
+
+                <p class="card-text transform">first
+                  Providing printing experience serving small businesses & retailers in every
+                  niche market such as nail salons, restaurants, real estate firms, schools, churches,
+                  non-profits, technology companies and customers from all over the country. We boast
+                  a highly experienced customer service team to assist you with all your online printing
+                  needs as well as in-house graphic designers to provide you with file assistance and
+                  meet any design need. We are so confident that you will love us that we offer a 100%
+                  customer satisfaction guarantee.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- second card -->
+          <div class="col-md-4">
+            <div class="card border-success mb-3" style="max-width: 20rem;">
+              <div class="card-header">
+                <h2>MARKETING</h2>
+              </div>
+              <div class="card-body">
+                <span style="margin-bottom: 3%;"><i class="fas fa-bullhorn fa-2x"></i></span>
+                <br><br>
+                <h4 class="card-title">Make stunning print.</h4>
+
+                <p class="card-text transform">second
+                  Providing printing experience serving small businesses & retailers in every
+                  niche market such as nail salons, restaurants, real estate firms, schools, churches,
+                  non-profits, technology companies and customers from all over the country. We boast
+                  a highly experienced customer service team to assist you with all your online printing
+                  needs as well as in-house graphic designers to provide you with file assistance and
+                  meet any design need. We are so confident that you will love us that we offer a 100%
+                  customer satisfaction guarantee.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- third card -->
+
+          <div class="col-md-4">
+            <div class="card border-success mb-3" style="max-width: 20rem;">
+              <div class="card-header">
+                <h2>BUSINESS CONSULTING</h2>
+              </div>
+              <div class="card-body">
+                <span style="margin-bottom: 3%;"><i class="fas fa-chart-line fa-2x"></i></span>
+                <br><br>
+                <h4 class="card-title">Make stunning print.</h4>
+
+                <p class="card-text transform">third
+                  Providing printing experience serving small businesses & retailers in every
+                  niche market such as nail salons, restaurants, real estate firms, schools, churches,
+                  non-profits, technology companies and customers from all over the country. We boast
+                  a highly experienced customer service team to assist you with all your online printing
+                  needs as well as in-house graphic designers to provide you with file assistance and
+                  meet any design need. We are so confident that you will love us that we offer a 100%
+                  customer satisfaction guarantee.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="bd-footer bg-dark">
+          <div class="container-fluid text-center">
+            <p id="footer-text-color" class="px-Bottom">GPS</p>
+            <p id="footer-text-color" style="margin-top:2%;">Copy right &copy;</p>
+          </div>
+        </footer>
 
         <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js">
+        </script>
         <!-- bootrap js and jquery -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     </body>
 </html>
