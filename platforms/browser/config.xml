@@ -7,6 +7,12 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
+    <flatform name="ios" />
+    <flatform name="android" />
+    <flatform name="winphone" />
     <content src="index.html" />
     <access origin="*" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-maxSdkVersion" value="23" />
+    <preference name="android-targetSdkVersion" value="21" />
 </widget>
