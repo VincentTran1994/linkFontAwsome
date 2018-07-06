@@ -1,3 +1,14 @@
 body{
+  font-family: 'Raleway', sans-serif;
   background-image: url("images/background.jpg");
+}
+
+#footer-text-color{
+  font-size: 13px;
+  color: #d0d8e5;
+  margin-bottom: 0%;
+}
+
+span{
+  letter-spacing: 0.2em;
 }
