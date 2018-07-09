@@ -9,9 +9,8 @@ body{
   color: #d0d8e5;
   margin-bottom: 0%;
 }
-
-.container{
-  margin-bottom: 20%;
+.container-top{
+  margin-top:20%;
 }
 span{
   letter-spacing: 0.2em;
