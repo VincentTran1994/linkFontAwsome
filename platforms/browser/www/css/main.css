@@ -3,6 +3,9 @@ body{
   font-size: 12px;
   background-color: rgb(85, 121, 178);
 }
+.container-top{
+  margin-top:25%;
+}
 
 #footer-text-color{
   font-size: 13px;
