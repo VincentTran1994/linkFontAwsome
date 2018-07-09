@@ -9,8 +9,9 @@ body{
   color: #d0d8e5;
   margin-bottom: 0%;
 }
-.container-top{
-  margin-top:20%;
+
+.container{
+  margin-bottom: 8%;
 }
 span{
   letter-spacing: 0.2em;
@@ -24,8 +25,6 @@ span{
   border-radius: 6px;
 }
 
-
-
 .btn-primary{
   text-align: center;
 }
@@ -34,18 +33,9 @@ inpt.form-control{
   position: relative;
 }
 
-.fa-envelope-square{
-  color:rgb(107, 111, 117);
-  position: absolute;
-  top:195.3%;
-  left:47px;
-}
-
-.fa-phone{
-  color:rgb(107, 111, 117);
-  position: absolute;
-  top:203.4%;
-  left:47px;
+.contact-icon{
+  position: relative;
+  font-size: 1.5em;
 }
 
 ul{
@@ -89,4 +79,17 @@ i{
   padding-top: 25%;
   padding-left: 15%;
   padding-right: 10px;
+}
+
+.custom-display{
+  display: block!important;
+  background-color: rgb(86, 88, 91,0.9);
+  border-radius: 4px;
+}
+
+.col-sx-4{
+  width: 33%;
+}
+.col-sx-2{
+  width: 20%;
 }
