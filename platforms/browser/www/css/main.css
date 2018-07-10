@@ -7,6 +7,24 @@ body{
   margin-top:25%;
 }
 
+/* here need to be fixed for homepage carousel */
+.opacity-div{
+  height: 100%;
+  width: 100%;
+}
+
+.half-opacity{
+
+}
+/* here need to be fixed for homepage carousel */
+
+.btn-overlay{
+  position:absolute;
+  width: 30%;
+  height: 10%;
+  top: 95%;
+}
+
 #footer-text-color{
   font-size: 13px;
   color: #d0d8e5;
