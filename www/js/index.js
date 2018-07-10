@@ -1,6 +1,25 @@
 document.addEventListener('deviceready', onDeviceReady, false);
 
 function onDeviceReady(){
+  //scroll down and back-to-top button
+  window.onscroll = function(){
+    if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+      $('i.back-to-top').css("display","block");
+    }
+    else{
+      $('i.back-to-top').css("display","none");
+    }
+  }
+  //scroll back to the back while touching
+  $('i.back-to-top').click(function(){
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  //   $('body').animate({
+  //     scrollTop : 0
+  //   },
+  //     'slow');
+  });
+
   // reducing texts in cards
   var fullText=[];
   var temp = [];
@@ -15,7 +34,7 @@ function onDeviceReady(){
   }
 
   // contact form
-  $('button.submit')[0].addEventListener("click", function(){
+  document.getElementsByClassName('submit')[0].addEventListener("click", function(){
     var email = $('input.email').get(0).value,
         phoneNumber = $('input.phone').get(0).value,
         body = ('textarea.body').get(0).value;
