@@ -18,11 +18,15 @@ body{
 }
 /* here need to be fixed for homepage carousel */
 
-.btn-overlay{
+.icon-overlay{
   position:absolute;
-  width: 30%;
-  height: 10%;
-  top: 95%;
+  width: 25%;
+  height: 40%;
+  top: 80%;
+  margin-left:5%;
+  border-radius: 4px;
+  padding:auto;
+  background-color: #ffffff;
 }
 
 #footer-text-color{

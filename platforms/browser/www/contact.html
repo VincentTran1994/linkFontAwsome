@@ -47,12 +47,12 @@
         <!-- contact information  -->
         <div class="container container-top" style="font-size:12px;">
           <div class="jumbotron shadow-lg p-3 mb-5 bg-white rounded" style="background-color:rgb(237, 240, 244, .9);">
-            <h4 class="text-center">Global Printing Services</h4>
+            <h4 class="text-center font-weight-bold">Global Printing Services</h4>
             <small class="lead" style="font-size:12px;">For work related messages, please use the form above or the social information posted at the bottom.</small>
 
             <hr class="my-4" style="padding: 2%;">
 
-            <p class="lead">Postal Information</p>
+            <p class="lead font-weight-bold">Postal Information</p>
             <p>PO Box 22161 Street Collins East<br>
                PO Box 16122 Collins Street West<br>
                Victoria 8007 Australia
@@ -60,7 +60,7 @@
 
              <hr class="my-4" style="padding: 2%;">
 
-             <p class="lead">Contact Information</p>
+             <p class="lead font-weight-bold">Contact Information</p>
              <ul>
                <li><i class="fas fa-phone-square"></i> Phone number</li>
                <li>
@@ -76,7 +76,7 @@
         <!-- embed goolge map -->
         <div class="container">
           <div class="jumbotron shadow-lg p-3 mb-5 bg-white rounded" style="background-color:rgb(237, 240, 244, .9);">
-            <p class="lead text-center">Our Location</p>
+            <p class="lead text-center font-weight-bold">Our Location</p>
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26489.71589549987!2d-84.2209608!3d33.9098789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a6bf587ee74d%3A0x97e0839cb4a04323!2sGlobal+Printing+%26+Services!5e0!3m2!1sen!2sus!4v1530895250653"
                     width="100%" height="450px" frameborder="0"
                     style="border-radius: 5px;padding-top:5%;" ></iframe>
@@ -89,9 +89,20 @@
           <form action="//formspree.io/vincenttran2601@gmail.com" method="post">
             <div class="form-group">
               <div class="form-header">
-                <h3 class="text-center">Contact Us</h3>
+                <h3 class="text-center font-weight-bold">Contact Us</h3>
               </div>
             </div>
+
+            <div class="form-group" style="width:100%; position:relative;">
+              <input type="name" class="form-control name"
+                     id="exampleInputEmail1" aria-describedby="emailHelp"
+                     placeholder="Full Name"
+                     style="padding-left:40px;position: absolute;"
+                     size="35"
+                     >
+              <i class="fas fa-user contact-icon"></i>
+            </div>
+
             <div class="form-group" style="width:100%; position:relative;">
               <input type="email" class="form-control email"
                      id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -101,6 +112,7 @@
                      >
               <i class="fas fa-envelope-square contact-icon"></i>
             </div>
+
             <div class="form-group" style="width:100%; position:relative;">
 
               <input type="text" class="form-control phone"
